@@ -44,4 +44,4 @@ logger.info("Finishing tg_logger demo")
 
 ```
 ## Result
-![example_scr](/images/example_scr.png)
+![example_scr](/img/example_scr.jpg)
