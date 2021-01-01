@@ -1,4 +1,4 @@
-# tg_logger tool
+# ![tg_logo](/img/telegram-icon.png)tg_logger tool
 bridging python logging and user files to tg bot
 ## Example
 ```python
