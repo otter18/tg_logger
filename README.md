@@ -1,2 +1,2 @@
 # tg_logger
-bridging python logging to tg bot
+bridging python logging and user files to tg bot
