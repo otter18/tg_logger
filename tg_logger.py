@@ -37,7 +37,7 @@ class TgLoggerHandler(StreamHandler):
             t0 = time()
             while time() - t0 < self.timeout:
                 try:
-                    self.bot.send_message(user_id, msg)
+                    self.bot.send_message(user_id, msg, parse_mode="HTML")
                     break
                 except Exception as ex:
                     logger.exception("Exception while sending %s to %s:", msg, user_id)
@@ -77,7 +77,7 @@ class TgFileLogger:
                 t0 = time()
                 while time() - t0 < self.timeout:
                     try:
-                        self.bot.send_document(user_id, data=data, caption=caption)
+                        self.bot.send_document(user_id, data=data, caption=caption, parse_mode="HTML")
                         logger.info("File %s successfully send to %s", file_path, user_id)
                         break
                     except Exception as ex:
