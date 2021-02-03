@@ -3,3 +3,6 @@ __pycache__/
 dist/
 *.egg-info/
 .coverage
+build/
+setup.cfg
+tg_logger.toml

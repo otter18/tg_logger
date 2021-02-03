@@ -1,5 +1,7 @@
 # ![tg_logo](https://i.ibb.co/ftBZY9z/telegram-icon.png) tg_logger tool
 [![](https://img.shields.io/pypi/v/tg-logger.svg)](https://pypi.org/project/tg-logger/)
+[![](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/)
+[![](https://img.shields.io/pypi/l/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 
 bridging python logging and user files to tg bot
 ## Example

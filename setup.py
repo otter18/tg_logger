@@ -12,5 +12,11 @@ setup(
     packages=find_packages(),
     install_requires=[
         "pyTelegramBotAPI==3.7.6",
-    ]
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
 )
