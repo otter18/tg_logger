@@ -1,10 +1,3 @@
-# ![tg_logo](https://i.ibb.co/ftBZY9z/telegram-icon.png) tg_logger tool
-[![](https://img.shields.io/pypi/v/tg-logger.svg)](https://pypi.org/project/tg-logger/)
-
-bridging python logging and user files to tg bot
-## Example
-
-```python
 #  Copyright (c) ChernV (@otter18), 2021.
 
 import logging
@@ -48,7 +41,3 @@ tg_files_logger.send(file_name, "Test file")
 
 # And one more time...
 logger.info("Finishing tg_logger demo")
-
-```
-## Result
-![example_scr](https://i.ibb.co/ByDrZv3/example-scr.jpg)
