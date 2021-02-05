@@ -1,5 +1,4 @@
 # ![tg_logo](https://raw.githubusercontent.com/otter18/tg_logger/master/img/telegram-icon.png) Telegram logger
-
 [![](https://img.shields.io/pypi/v/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 [![](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 [![](https://img.shields.io/pypi/l/tg-logger.svg)](https://pypi.org/project/tg-logger/)
@@ -7,14 +6,11 @@
 Bridging python logging and files to tg bot
 
 ## Installation & Usage
-
 - Available by `pip install tg-logger`
 - Use with `import tg_logger`
 
 ## Examples
-
 ### TgLogger example
-
 ```python
 import logging
 import tg_logger
@@ -35,7 +31,6 @@ logger.info("Hello from tg_logger by otter18")
 ```
 
 ### TgFileLogger example
-
 ```python
 import logging
 import tg_logger
@@ -59,5 +54,4 @@ tg_files_logger.send(file_name, "Test file")
 ```
 
 ### Example screenshot
-
 ![example_scr](https://raw.githubusercontent.com/otter18/tg_logger/master/img/example_scr.png)

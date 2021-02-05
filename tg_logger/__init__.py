@@ -9,7 +9,6 @@ import telebot
 
 # logging setup
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
 
 
 def setup(base_logger: logging.Logger,
@@ -18,7 +17,7 @@ def setup(base_logger: logging.Logger,
           timeout: int = 10,
           tg_format: str = '<b>%(name)s:%(levelname)s</b> - <code>%(message)s</code>'):
     """
-    Setup TgLoggerHandler tool
+    Setup TgLogger
 
     :param base_logger: base logging.Logger obj
     :param token: tg bot token to log form
@@ -39,7 +38,6 @@ def setup(base_logger: logging.Logger,
     )
     tg_handler.setFormatter(formatter)
     base_logger.addHandler(tg_handler)
-    # return base_logger
 
 
 class TgLoggerHandler(StreamHandler):
