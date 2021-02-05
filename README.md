@@ -1,7 +1,7 @@
 # ![tg_logo](https://raw.githubusercontent.com/otter18/tg_logger/master/img/telegram-icon.png) Telegram logger
 [![](https://img.shields.io/pypi/v/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 [![](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/)
-[![](https://img.shields.io/pypi/l/tg-logger.svg)](https://pypi.org/project/tg-logger/)
+![GitHub](https://img.shields.io/github/license/otter18/tg_logger)
 
 Bridging python logging and files to tg bot
 
