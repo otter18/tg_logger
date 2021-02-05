@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="tg_logger",
-    version="2.0.1",
+    version="3.0",
     description="A tool to bridge python logging and user files to telegram bot",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -12,5 +12,11 @@ setup(
     packages=find_packages(),
     install_requires=[
         "pyTelegramBotAPI==3.7.6",
-    ]
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
 )

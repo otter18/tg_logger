@@ -1,43 +1,49 @@
-# ![tg_logo](https://i.ibb.co/ftBZY9z/telegram-icon.png) tg_logger tool
+# ![tg_logo](https://raw.githubusercontent.com/otter18/tg_logger/master/img/telegram-icon.png) Telegram logger
 [![](https://img.shields.io/pypi/v/tg-logger.svg)](https://pypi.org/project/tg-logger/)
+[![](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/)
+[![](https://img.shields.io/pypi/l/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 
-bridging python logging and user files to tg bot
-## Example
+Bridging python logging and files to tg bot
 
+## Installation & Usage
+- Available by `pip install tg-logger`
+- Use with `import tg_logger`
+
+## Examples
+### TgLogger example
 ```python
-#  Copyright (c) ChernV (@otter18), 2021.
-
 import logging
-
 import tg_logger
 
 # Telegram data
 token = "1234567890:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 users = [1111111111]
 
-# Logging format
-logging.basicConfig(format='%(asctime)s:%(name)s:%(levelname)s - %(message)s')
-formatter = logging.Formatter('<b>%(name)s:%(levelname)s</b> - <code>%(message)s</code>')
-
-# Setup TgLoggerHandler
-tg_handler = tg_logger.TgLoggerHandler(
-    token=token,  # tg bot token
-    users=users,  # list of user_id
-    timeout=10  # default value is 10 seconds
-)
-tg_handler.setFormatter(formatter)
-logger = logging.getLogger()
+# Base logger
+logger = logging.getLogger('foo')
 logger.setLevel(logging.INFO)
-logger.addHandler(tg_handler)
+
+# Logging bridge setup
+tg_logger.setup(logger, token=token, users=users)
 
 # Test
 logger.info("Hello from tg_logger by otter18")
+```
+
+### TgFileLogger example
+```python
+import logging
+import tg_logger
+
+# Telegram data
+token = "1234567890:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+users = [1111111111]
 
 # TgFileLogger example
 tg_files_logger = tg_logger.TgFileLogger(
     token=token,  # tg bot token
     users=users,  # list of user_id
-    timeout=10  # default is 10 seconds
+    timeout=10  # 10 seconds by default
 )
 
 file_name = "test.txt"
@@ -45,10 +51,7 @@ with open(file_name, 'w') as example_file:
     example_file.write("Hello from tg_logger by otter18")
 
 tg_files_logger.send(file_name, "Test file")
-
-# And one more time...
-logger.info("Finishing tg_logger demo")
-
 ```
-## Result
-![example_scr](https://i.ibb.co/ByDrZv3/example-scr.jpg)
+
+### Example screenshot
+![example_scr](https://raw.githubusercontent.com/otter18/tg_logger/master/img/example_scr.png)

@@ -8,20 +8,12 @@ import tg_logger
 token = "1234567890:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 users = [1111111111]
 
-# Logging format
-logging.basicConfig(format='%(asctime)s:%(name)s:%(levelname)s - %(message)s')
-formatter = logging.Formatter('<b>%(name)s:%(levelname)s</b> - <code>%(message)s</code>')
-
-# Setup TgLoggerHandler
-tg_handler = tg_logger.TgLoggerHandler(
-    token=token,  # tg bot token
-    users=users,  # list of user_id
-    timeout=10  # default value is 10 seconds
-)
-tg_handler.setFormatter(formatter)
-logger = logging.getLogger()
+# Base logger
+logger = logging.getLogger('foo')
 logger.setLevel(logging.INFO)
-logger.addHandler(tg_handler)
+
+# Logging bridge setup
+tg_logger.setup(logger, token=token, users=users)
 
 # Test
 logger.info("Hello from tg_logger by otter18")
