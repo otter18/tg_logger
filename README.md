@@ -1,4 +1,4 @@
-# ![tg_logo](https://raw.githubusercontent.com/otter18/tg_logger/master/img/telegram-icon.png) Telegram logger ![GitHub Repo stars](https://img.shields.io/github/stars/otter18/tg_logger?style=social)
+# ![tg_logo](https://raw.githubusercontent.com/otter18/tg_logger/master/img/telegram-icon.png) Telegram logger [![GitHub Repo stars](https://img.shields.io/github/stars/otter18/tg_logger?style=social)](https://github.com/otter18/tg_logger/stargazers)
 [![](https://img.shields.io/pypi/v/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 [![](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 ![GitHub](https://img.shields.io/github/license/otter18/tg_logger)
