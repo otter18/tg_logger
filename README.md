@@ -57,3 +57,8 @@ tg_files_logger.send(file_name, "Test file")
 
 ### Example screenshot
 ![example_scr](https://raw.githubusercontent.com/otter18/tg_logger/master/img/example_scr.png)
+
+## QA
+### How to create a telegram bot? How to get `token` and `used_id`?
+- To create bot use official [BotFather](https://t.me/BotFather) bot (descibed [here](https://core.telegram.org/bots#6-botfather))
+- To get `used_id` use special bots (e.g. [@userinfobot](https://t.me/userinfobot), [@JsonDumpBot](https://t.me/JsonDumpBot))
