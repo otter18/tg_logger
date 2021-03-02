@@ -45,7 +45,6 @@ logger.info("Hello from tg_logger by otter18")
 ### Flask logging
 ```python
 from flask import Flask
-import logging
 import tg_logger
 
 # Telegram data
