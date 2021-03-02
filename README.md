@@ -71,7 +71,6 @@ if __name__ == '__main__':
 
 ### TgFileLogger example
 ```python
-import logging
 import tg_logger
 
 # Telegram data
