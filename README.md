@@ -3,13 +3,11 @@
 [![](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 [![GitHub](https://img.shields.io/github/license/otter18/tg_logger)](https://github.com/otter18/tg_logger/blob/main/LICENSE)
 
-
-
 Bridging python logging and files to tg bot
-![example_scr](https://raw.githubusercontent.com/otter18/tg_logger/master/img/example_scr.png)
 
 ## Table of Contents
 - [Installation & Usage](#installation--usage)
+- [Screenshot](#screenshot)
 - [Examples](#examples)
     * [Simple logging](#simple-logging)
     * [Flask logging](#flask-logging)
@@ -17,9 +15,13 @@ Bridging python logging and files to tg bot
 - [FQA](#fqa)
     * [How to create a telegram bot?](#how-to-create-a-telegram-bot)
     * [How to get **token** and **user_id**?](#how-to-get-token-and-user_id)
+
 ## Installation & Usage
 - Available by `pip install tg-logger`
 - Use with `import tg_logger`
+
+## Screenshot
+![example_scr](https://raw.githubusercontent.com/otter18/tg_logger/master/img/example_scr.png)
 
 ## Examples
 ### Simple logging
