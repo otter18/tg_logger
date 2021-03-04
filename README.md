@@ -6,6 +6,7 @@
 
 
 Bridging python logging and files to tg bot
+![example_scr](https://raw.githubusercontent.com/otter18/tg_logger/master/img/example_scr.png)
 
 ## Table of Contents
 - [Installation & Usage](#installation--usage)
@@ -13,7 +14,6 @@ Bridging python logging and files to tg bot
     * [Simple logging](#simple-logging)
     * [Flask logging](#flask-logging)
     * [TgFileLogger example](#tgfilelogger-example)
-    * [Example screenshot](#example-screenshot)
 - [FQA](#fqa)
     * [How to create a telegram bot?](#how-to-create-a-telegram-bot)
     * [How to get **token** and **user_id**?](#how-to-get-token-and-user_id)
@@ -89,9 +89,6 @@ with open(file_name, 'w') as example_file:
 
 tg_files_logger.send(file_name, "Test file")
 ```
-
-### Example screenshot
-![example_scr](https://raw.githubusercontent.com/otter18/tg_logger/master/img/example_scr.png)
 
 ## FQA
 ### How to create a telegram bot? 
