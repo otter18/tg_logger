@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../tg_logger'))
+sys.path.insert(0, os.path.abspath('..'))
 
 
 # -- Project information -----------------------------------------------------
@@ -22,7 +22,7 @@ copyright = '2021, ChernV (otter18)'
 author = 'ChernV (otter18)'
 
 # The full version, including alpha/beta/rc tags
-release = '3.0'
+release = 'v3.1'
 
 
 # -- General configuration ---------------------------------------------------

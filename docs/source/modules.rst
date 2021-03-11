@@ -1,7 +1,7 @@
 Module description
 ===================
 
-.. automodule:: tg_logger.__init__
+.. automodule:: tg_logger
    :members:
    :undoc-members:
    :show-inheritance:
