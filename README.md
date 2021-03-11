@@ -2,6 +2,7 @@
 [![](https://img.shields.io/pypi/v/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 [![](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 [![GitHub](https://img.shields.io/github/license/otter18/tg_logger)](https://github.com/otter18/tg_logger/blob/main/LICENSE)
+[![Documentation Status](https://readthedocs.org/projects/tg-logger/badge/?version=latest)](https://tg-logger.readthedocs.io/en/latest/?badge=latest)
 
 Bridging python logging and files to tg bot
 
