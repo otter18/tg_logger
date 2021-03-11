@@ -6,6 +6,8 @@
 
 Bridging python logging and files to tg bot
 
+Documentation is available at [Read the Docs](https://tg-logger.readthedocs.io/)
+
 ## Table of Contents
 - [Installation & Usage](#installation--usage)
 - [Screenshot](#screenshot)
