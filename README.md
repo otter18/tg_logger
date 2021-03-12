@@ -8,6 +8,8 @@ Bridging python logging and files to tg bot
 
 Documentation is available at [Read the Docs](https://tg-logger.readthedocs.io/)
 
+Demo is available [@tg_logger_demo_bot](https://t.me/tg_logger_demo_bot), [[repo](https://github.com/otter18/tg-logger-demo-bot)]
+
 ## Table of Contents
 - [Installation & Usage](#installation--usage)
 - [Screenshot](#screenshot)
@@ -99,5 +101,6 @@ tg_files_logger.send(file_name, "Test file")
 ### How to create a telegram bot? 
 - To create bot use official [BotFather](https://t.me/BotFather) bot (descibed [here](https://core.telegram.org/bots#6-botfather))
 ### How to get **token** and **user_id**?
+- Use [@tg_logger_demo_bot](https://t.me/tg_logger_demo_bot) with command `/id`
 - Bot's **token** is shown after new bot is made
 - To get **user_id** use special bots (e.g. [@userinfobot](https://t.me/userinfobot), [@JsonDumpBot](https://t.me/JsonDumpBot))
