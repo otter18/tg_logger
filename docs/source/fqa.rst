@@ -9,5 +9,6 @@ To create bot use official `BotFather <https://t.me/BotFather>`_ bot (descibed `
 How to get **token** and **user_id**?
 *************************************
 
+- Use `@tg_logger_demo_bot <https://t.me/tg_logger_demo_bot>`_ with command :code:`/id`
 - Bot's **token** is shown after new bot is made
 - To get **user_id** use special bots (e.g. `@userinfobot <https://t.me/userinfobot>`_, `@JsonDumpBot <https://t.me/JsonDumpBot>`_)
