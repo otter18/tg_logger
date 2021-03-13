@@ -1,10 +1,10 @@
 # ![tg_logo](https://raw.githubusercontent.com/otter18/tg_logger/master/img/telegram-icon.png) Telegram logger [![GitHub Repo stars](https://img.shields.io/github/stars/otter18/tg_logger?style=social)](https://github.com/otter18/tg_logger/stargazers)
 [![Pypi version](https://img.shields.io/pypi/v/tg-logger.svg)](https://pypi.org/project/tg-logger/)
 [![Downloads](https://static.pepy.tech/personalized-badge/tg-logger?period=total&units=international_system&left_color=grey&right_color=orange&left_text=Downloads)](https://pepy.tech/project/tg-logger)
-[![Pyversions](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/)
-
 [![GitHub](https://img.shields.io/github/license/otter18/tg_logger)](https://github.com/otter18/tg_logger/blob/main/LICENSE)
 [![Documentation Status](https://readthedocs.org/projects/tg-logger/badge/?version=latest)](https://tg-logger.readthedocs.io/en/latest/?badge=latest)
+
+<!-- [![Pyversions](https://img.shields.io/pypi/pyversions/tg-logger.svg)](https://pypi.org/project/tg-logger/) -->
 
 Bridging python logging and files to tg bot
 
