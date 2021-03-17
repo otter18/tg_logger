@@ -13,13 +13,13 @@ Documentation is available at [Read the Docs](https://tg-logger.readthedocs.io/)
 Demo is available [@tg_logger_demo_bot](https://t.me/tg_logger_demo_bot), [[repo](https://github.com/otter18/tg-logger-demo-bot)]
 
 ## 🗂 Table of Contents
-- [Installation & Usage](#installation--usage)
-- [Screenshot](#screenshot)
-- [Examples](#examples)
+- [Installation & Usage](#-installation--usage)
+- [Screenshot](#-screenshot)
+- [Examples](#-examples)
     * [Simple logging](#simple-logging)
     * [Flask logging](#flask-logging)
     * [TgFileLogger example](#tgfilelogger-example)
-- [FQA](#fqa)
+- [FQA](#-fqa)
     * [How to create a telegram bot?](#how-to-create-a-telegram-bot)
     * [How to get **token** and **user_id**?](#how-to-get-token-and-user_id)
 
