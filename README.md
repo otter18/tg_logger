@@ -12,7 +12,7 @@ Documentation is available at [Read the Docs](https://tg-logger.readthedocs.io/)
 
 Demo is available [@tg_logger_demo_bot](https://t.me/tg_logger_demo_bot), [[repo](https://github.com/otter18/tg-logger-demo-bot)]
 
-## Table of Contents
+## 🗂 Table of Contents
 - [Installation & Usage](#installation--usage)
 - [Screenshot](#screenshot)
 - [Examples](#examples)
@@ -23,14 +23,14 @@ Demo is available [@tg_logger_demo_bot](https://t.me/tg_logger_demo_bot), [[repo
     * [How to create a telegram bot?](#how-to-create-a-telegram-bot)
     * [How to get **token** and **user_id**?](#how-to-get-token-and-user_id)
 
-## Installation & Usage
+## 🚀 Installation & Usage
 - Available by `pip install tg-logger`
 - Use with `import tg_logger`
 
-## Screenshot
+## 📱 Screenshot
 ![example_scr](https://raw.githubusercontent.com/otter18/tg_logger/master/img/example_scr.png)
 
-## Examples
+## 📖 Examples
 ### Simple logging
 ```python
 import logging
@@ -99,7 +99,7 @@ with open(file_name, 'w') as example_file:
 tg_files_logger.send(file_name, "Test file")
 ```
 
-## FQA
+## 🔎 FQA
 ### How to create a telegram bot? 
 - To create bot use official [BotFather](https://t.me/BotFather) bot (descibed [here](https://core.telegram.org/bots#6-botfather))
 ### How to get **token** and **user_id**?
