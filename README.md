@@ -20,6 +20,7 @@ Demo is available [@tg_logger_demo_bot](https://t.me/tg_logger_demo_bot), [[repo
 - [Examples](#-examples)
     * [Simple logging](#simple-logging)
     * [Flask logging](#flask-logging)
+    * [Setting extra parameters to handler](#setting-extra-parameters-to-handler)
     * [TgFileLogger example](#tgfilelogger-example)
 - [FQA](#-fqa)
     * [How to create a telegram bot?](#how-to-create-a-telegram-bot)
@@ -78,6 +79,30 @@ def hello_world():
 if __name__ == '__main__':
     app.run()
 
+```
+
+### Setting extra parameters to handler
+
+```python
+import logging
+import tg_logger
+
+# Telegram data
+token = "1234567890:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+users = [1111111111]
+
+# Base logger
+logger = logging.getLogger('foo')
+logger.setLevel(logging.INFO)
+
+# Logging bridge setup
+handler = tg_logger.setup(logger, token=token, users=users)
+
+# Setting extra params
+handler.setLevel(logging.DEBUG)
+
+# Test
+logger.info("Hello from tg_logger by otter18")
 ```
 
 ### TgFileLogger example
