@@ -43,7 +43,7 @@ class TgFileLogger:
                 t0 = time()
                 while time() - t0 < self.timeout:
                     try:
-                        self.bot.send_document(user_id, data=data, caption=caption, parse_mode="HTML")
+                        self.bot.send_document(user_id, document=data, caption=caption, parse_mode="HTML")
                         logger.info("File %s successfully send to %s", file_path, user_id)
                         break
                     except Exception:
